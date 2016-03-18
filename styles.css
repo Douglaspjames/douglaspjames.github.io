@@ -1,3 +1,17 @@
-body {
-	background: blue;
+.box {
+	width: 30%;
+	background-color: orange;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 50px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+
+	font-size: 2em;
+	margin-top: 50px;
+
+	
 }
