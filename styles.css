@@ -34,6 +34,11 @@ html {
 
 #content {
 	font-size: 1.5em;
+
+}
+
+#content p {
+	margin-bottom: 100px;
 }
 
 a { 
@@ -46,8 +51,10 @@ a:visited {
   color: yellow;
 }
 
-a:hover {
-  text-decoration: underline;
+@media screen and (max-width: 800px) {
+  body {
+    width: 50%;
+  }
 }
 
 
