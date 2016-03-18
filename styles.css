@@ -12,6 +12,18 @@ footer {
 
 	font-size: 2em;
 	margin-top: 50px;
-
 	
+}
+
+.characters {
+	width: 35%;
+	background-image: url("http://sapbeluxevent.be/SAPForum/wp-content/uploads/2015/08/Solheim_shutterstock_T.jpg");
+	background-color: orange;
+	padding: 5px;
+	border: 5px solid black;
+	margin: 50px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 1.5em;
+	color: white;
+
 }
