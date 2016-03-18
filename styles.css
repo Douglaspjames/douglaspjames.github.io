@@ -27,3 +27,16 @@ footer {
 	color: white;
 
 }
+
+html {
+	background-color: gray;
+}
+
+#content {
+	font-size: 1.5em;
+}
+
+div#content p {
+	margin-bottom: 100px;
+
+}
