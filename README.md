@@ -1,1 +1,0 @@
-# douglaspjames.github.io
