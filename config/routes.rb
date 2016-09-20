@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :posts
-  root "posts#index"
+  root 'static_pages#root'
 
 end

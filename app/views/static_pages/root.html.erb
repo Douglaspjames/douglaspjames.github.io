@@ -1,0 +1,90 @@
+
+    <section id="cd-intro">
+
+      <div id="cd-intro-background"></div>
+      <div id="cd-intro-tagline">
+        <h1>Douglas James</h1><br>
+        <h3>Web Developer</h3>
+      </div> <!-- cd-intro-tagline -->
+    </section> <!-- #cd-intro -->
+
+
+  <div id="about">
+    <div class="cd-content">
+      <div class="cd-container">     
+          <h2>About</h2>
+          <%=image_tag("dug_ocean_copy.jpg", :class => "photo")%>
+          <p>I'm a web developer and musician that appreciates simple, beautiful websites. My experience
+          producing music developed my passion for creating meaningful projects and solving complex
+          problems efficiently. I love learning new technologies, designing excellent user  experiences,
+          and discovering new music.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <div class="cd-content2">
+      <div class="cd-container">      
+        <h2>Projects</h2>
+          <div class="project"> 
+            <h4><a href="repose.herokuapp.com/">Repose</a></h4>
+              <div class="line"></div>
+                <h5><a class="site" href="repose.herokuapp.com/">website</a></h5>
+                <p>A mobile application to help people cope with and manage their panic attacks and acute anxiety. It was created in one week as a final project at Dev Bootcamp.</p>
+                <p class="site">features</p>
+                <ul>
+                  <li>Track and journal all of your experiences with Repose's powerful tools.</li>
+                  <li>Repose's expanding and contracting orb is a helpful breathing guide.</li>
+                  <li>Repose allows you to define a set of contacts - and their availability - to have at your fingertips.</li>
+                  
+                
+                <p class="tech">Ruby on Rails | Xcode | Swift | Alamofire.</p>
+                <div class="line"></div>
+                <p class="site">github</p>
+                <div>
+                <%= link_to image_tag("Github-icon.png", size: "40x40"), "https://github.com/duranje/repose-xcode" %>
+                </div>
+                
+          </div>
+        
+          <div class="project">   
+            <h4><a href="dive-books-camp.herokuapp.com/">Dive BooksCamp</a></h4>
+              <div class="line"></div>
+                <h5><a class="site" href="dive-books-camp.herokuapp.com/">website</a></h5>
+                <h5 class="site">login: d@divebookscamp.com | password: password</h5>
+                <p>A client project for Dev Bootcamp. The app allows teachers to create a new schedule by participating in a snake-ordered
+                live draft.</p>
+                <p class="site">features</p>
+                <ul>
+                  <li>Employees create their own schedule by participating in a live draft.</li>
+                  <li>Employees track their percentage of time spent in each group and how many off days they are owed.</li>
+                  
+                  
+                
+                <p class="tech">Ruby on Rails | Bootstrap | Javascript(AJAX, JQuery).</p>
+                <div class="line"></div>
+                <p class="site">github</p>
+                <div>
+                <%= link_to image_tag("Github-icon.png", size: "40x40"), "https://github.com/zaki-arain/divebookscamp" %>
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="cd-content3">
+      <div class="cd-container">     
+          <h2>Contact</h2>
+          <a href="mailto:dpjames29@gmail.com">dpjames29@gmail.com</a>
+          <br>
+          <%= link_to image_tag("Github-icon.png", size: "40x40"), "https://github.com/Douglaspjames" %>
+          <%= link_to image_tag("Linkedin-logo-icon.png", size: "40x40"), "https://www.linkedin.com/in/douglaspjames" %>
+  
+          <br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+
+
+   
